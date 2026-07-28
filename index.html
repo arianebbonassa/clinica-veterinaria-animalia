@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ========== TÍTULO E DESCRIÇÃO (EDITÁVEL) ========== -->
+    <title>Clínica Veterinária Animalia | Saúde e Carinho para o seu Pet</title>
+    <meta name="description"
+        content="Pet Shop e Clínica Veterinária completa. Banho e tosa, consultas, vacinação, cirurgias, hotel pet e muito mais. Agende agora!">
+
+    <!-- ========== FAVICON (EDITÁVEL) ========== -->
+    <link rel="icon"
+        href="data:image/svg+xml, svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22> text y=%22.9em%22 font-size=%2290%22>🐾</text></svg>">
+
+    <!-- ========== FOLHA DE ESTILOS ========== -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ========== FONTES GOOGLE (EDITÁVEL) ========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Fredoka:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ========================================
+         HEADER / MENU NAVEGAÇÃO
+         ======================================== -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+
+                <!-- ========== LOGO (EDITÁVEL) ========== -->
+                <a href="#home" class="logo">
+                    <img src="./imagens/logo-animalia.png" alt="logo-animalia" class="logo-img">
+                    <span class="logo-text">
+                        <span class="logo-name">Animália</span>
+                        <span class="logo-tagline">Clínica Veterinária</span>
+                    </span>
+                </a>
+
+                <!-- ========== MENU DESKTOP (EDITÁVEL) ========== -->
+                <nav class="nav" id="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link">Início</a></li>
+                        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                        <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                        <li><a href="#promocoes" class="nav-link" style="color: var(--cor-secundaria); font-weight: bold;">Promoções 🔥</a></li>
+                        <li><a href="#faq" class="nav-link">FAQ</a></li>
+                        <li><a href="#contato" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>
+
+
+                <!-- ========== BOTÃO CTA HEADER (EDITÁVEL) ========== -->
+                <a href="https://wa.me/5514998579097?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta."
+                    class="btn btn-principal btn-header" target="_blank" rel="noopener noreferrer">Agendar Consulta</a>
+
+                <!-- ========== BOTÃO MENU MOBILE ========== -->
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========================================
+         SEÇÃO HERO / BANNER PRINCIPAL
+         ======================================== -->
+    <section class="hero" id="home">
+        <!-- ========== BACKGROUND COM OVERLAY (EDITÁVEL) ========== -->
+        <div class="hero-background"
+            style="background-image: url('https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=1920&q=80');">
+        </div>
+        <div class="hero-overlay"></div>
+
+        <div class="container">
+            <div class="hero-content">
+
+                <!-- ========== TEXTO HERO (EDITÁVEL) ========== -->
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Cuidando da saúde <span class="highlight">e do bem-estar</span> do seu melhor amigo.
+                    </h1>
+                    <p class="hero-description">
+                        Clínica Veterinária Animália, oferecendo serviços de pet shop, banho e tosa, vacinas, consultas
+                        e exames laboratoriais.
+                    </p>
+
+                    <!-- ========== BOTÕES CTA (EDITÁVEL) ========== -->
+                    <div class="hero-buttons">
+                        <a href="#servicos" class="btn btn-principal btn-large">Ver Serviços</a>
+                        <a href="https://wa.me/5514998579097?text=Olá,%20gostaria%20de%20agendar%20um%20horário!"
+                            target="_blank" class="btn btn-secondary btn-large">Agendar Agora</a>
+                    </div>
+
+                    <!-- ========== BADGES/DESTAQUES (EDITÁVEL) ========== -->
+                    <div class="hero-badges">
+                        <div class="badge">
+                            <span class="badge-icon">⭐</span>
+                            <span class="badge-text">Trajetória sólida de 10 anos</span>
+                        </div>
+                        <div class="badge">
+                            <span class="badge-icon">❤️</span>
+                            <span class="badge-text">+5000 pets atendidos</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ========== IMAGEM HERO (EDITÁVEL) ========== -->
+                <div class="hero-image">
+                    <div class="hero-image-container">
+                        <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&q=80"
+                            alt="Cachorro fofo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO SOBRE NÓS
+         ======================================== -->
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <div class="sobre-content">
+
+                <!-- ========== IMAGEM SOBRE (EDITÁVEL) ========== -->
+                <div class="sobre-image">
+                    <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?w=600&q=80"
+                        alt="Pet Shop Interior">
+                </div>
+
+                <!-- ========== TEXTO SOBRE (EDITÁVEL) ========== -->
+                <div class="sobre-text">
+                    <span class="section-label">Sobre Nós</span>
+                    <h2 class="section-title">Há 10 anos cuidando com amor do seu pet</h2>
+                    <p class="sobre-description">
+                        A <strong class="texto-laranja">Clínica Animália</strong> nasceu da paixão genuína do Felipe por
+                        proporcionar o melhor
+                        para os
+                        animais. Somos um espaço dedicado ao cuidado do seu pet, oferecendo um pet shop completo com
+                        banho e tosa de excelência, além de serviços essenciais de saúde com consultas e vacinas. Nossa
+                        missão é garantir a alegria e o bem-estar do seu melhor amigo, contando com uma equipe carinhosa
+                        e focada em um atendimento humanizado e próximo de toda a família.
+                    </p>
+                    <p class="sobre-description">
+                        Nossa missão é garantir a alegria e o bem-estar do seu melhor amigo, contando com uma equipe
+                        especializada focada em um atendimento humanizado, carinhoso e próximo de toda a família.
+                    </p>
+
+                    <!-- ========== LINK BOTÃO (ENTRE EM CONTATO) ========== -->
+
+
+                    <a href="#contato" class="btn btn-primary">Entre em Contato</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO SERVIÇOS
+         ======================================== -->
+    <section class="servicos" id="servicos">
+        <div class="container">
+
+            <!-- ========== TÍTULO DA SEÇÃO (EDITÁVEL) ========== -->
+            <div class="section-header">
+                <span class="section-label">Nossos Serviços</span>
+                <h2 class="section-title">Tudo que seu pet precisa em um só lugar</h2>
+                <p class="section-description">
+                    Oferecemos serviços completos de pet shop e clínica veterinária para cuidar da saúde e bem-estar do
+                    seu melhor amigo.
+                </p>
+            </div>
+
+            <!-- ========== GRID DE SERVIÇOS (EDITÁVEL) ========== -->
+            <div class="servicos-grid">
+
+                <!-- Serviço 1 -->
+                <div class="servico-card">
+                    <div class="servico-image">
+                        <img src="./imagens/dog-1.jpg"
+                            alt="Banho e Tosa" class="img-dog-banho">
+                    </div>
+                    <div class="servico-icon">🛁</div>
+                    <h3 class="servico-title">Banho e Tosa</h3>
+                    <p class="servico-description">
+                        Banho completo, tosa higiênica e estética com produtos de qualidade e profissionais
+                        especializados.
+                    </p>
+                </div>
+
+                <!-- Serviço 2 -->
+                <div class="servico-card">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=400&q=80"
+                            alt="Veterinário">
+                    </div>
+                    <div class="servico-icon">🩺</div>
+                    <h3 class="servico-title">Consultas Veterinárias  Farmácia Veterinária</h3>
+                    <p class="servico-description">
+                        Atendimento clínico geral com veterinários experientes para cuidar da saúde do seu pet.
+                    </p>
+                </div>
+
+                <!-- Serviço 3 -->
+                <div class="servico-card">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=400&q=80"
+                            alt="Produtos">
+                    </div>
+                    <div class="servico-icon">🦴</div>
+                    <h3 class="servico-title">Rações e Acessórios</h3>
+                    <p class="servico-description">
+                        Trabalhamos com as melhores rações e uma linha completa de acessórios em geral para o dia a dia
+                        do seu pet.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+     
+    <!-- ========================================
+         SEÇÃO PROMOÇÕES (BANHO E TOSA)
+         ======================================== -->
+    <section class="promocoes-especiais" id="promocoes">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Oferta Especial</span>
+                <h2 class="section-title">Promoção de Banho e Tosa</h2>
+                <p class="section-description">
+                    Deixe seu pet limpinho, cheiroso e com aquela elegância toda por um preço super especial!
+                </p>
+            </div>
+
+            <div class="promo-card-destaque">
+                <div class="promo-icon-header">✂️</div>
+                <div class="promo-content">
+                    <h3 class="promo-title">Terças e Quintas-Feiras</h3>
+                    <p class="promo-subtitle">Apenas no Período da Tarde</p>
+                    
+                    <ul class="promo-detalhes">
+                        <li>☀️ <strong>Horário:</strong> Exclusivo para o período da tarde</li>
+                        <li>🐕 <strong>Público-alvo:</strong> Válido para animais de pequeno porte</li>
+                        <li>⚠️ <strong>Vagas Limitadas:</strong> Garanta o horário do seu pet com antecedência!</li>
+                    </ul>
+                    
+                    <p class="promo-aviso">
+                        <em>*O valor deve ser consultado. Pode ocorrer alteração devido ao nó/pelagem.</em>
+                    </p>
+
+                    <div class="promo-action">
+                        <a href="https://wa.me/5514998579097?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20a%20promoção%20de%20banho%20e%20tosa." 
+                           class="btn btn-principal" target="_blank" rel="noopener noreferrer">
+                           Agendar Banho Promocional
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO SAÚDE E PREVENÇÃO (PRODUTOS & BRINDES)
+         ======================================== -->
+    <section class="saude-prevencao" id="saude">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Proteção e Cuidado</span>
+                <h2 class="section-title">Saúde em Dia com Vantagens</h2>
+                <p class="section-description">
+                    Mantenha seu pet protegido contra pulgas, carrapatos e vermes com as melhores marcas e condições especiais.
+                </p>
+            </div>
+
+            <div class="saude-grid">
+                <!-- Card 1: Antipulgas / Comprimidos ou Coleiras -->
+                <div class="saude-card">
+                    <div class="saude-card-icon">🛡️</div>
+                    <h3>Antipulgas e Carrapatos</h3>
+                    <p>Linha completa de comprimidos e coleiras de alta eficácia para cães e gatos.</p>
+                    <ul class="saude-beneficios">
+                        <li>✅ Marcas de referência no mercado</li>
+                        <li>🎁 Consulte condições especiais e brindes</li>
+                    </ul>
+                    <a href="https://wa.me/5514998579097?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20antipulgas%20e%20brindes." 
+                       class="btn-btn-secundario" target="_blank" rel="noopener noreferrer">
+                       Consultar Oferta
+                    </a>
+                </div>
+
+                <!-- Card 2: Vacinação e Vermifugação -->
+                <div class="saude-card">
+                    <div class="saude-card-icon">💉</div>
+                    <h3>Vacinação e Vermifugação</h3>
+                    <p>Proteção essencial para garantir a imunidade e longevidade do seu melhor amigo.</p>
+                    <ul class="saude-beneficios">
+                        <li>✅ Controle rigoroso de prazos e doses</li>
+                        <li>📋 Orientação veterinária especializada</li>
+                    </ul>
+                    <a href="https://wa.me/5514998579097?text=Olá!%20Gostaria%20de%20saber%20sobre%20vacinas%20e%20vermífugos." 
+                       class="btnbtn-secundario" target="_blank" rel="noopener noreferrer">
+                       Verificar Disponibilidade
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO CHECK-UP PREVENTIVO (COMPACTO)
+         ======================================== -->
+    <section class="checkup-secao" id="checkup">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Prevenção é Amor</span>
+                <h2 class="section-title">Check-up Preventivo</h2>
+                <p class="section-description">
+                    Cuide da saúde do seu pet com uma avaliação completa e garanta mais longevidade para ele.
+                </p>
+            </div>
+
+            <div class="checkup-card-compacto">
+                <div class="checkup-info">
+                    <span class="checkup-emoji">🩺</span>
+                    <div>
+                        <h3>Avaliação Preventiva Completa</h3>
+                        <p>Exame físico detalhado, auscultação cardiorrespiratória e orientações personalizadas de saúde para cães e gatos.</p>
+                    </div>
+                </div>
+                
+                <div class="checkup-botao">
+                    <a href="https://wa.me/5514998579097?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20check-up%20preventivo." 
+                       class="btn btn-principal" target="_blank" rel="noopener noreferrer">
+                       Agendar Check-up
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO DESTAQUES / DIFERENCIAIS
+         ======================================== -->
+    <section class="destaques">
+        <div class="container">
+
+            <!-- ========== TÍTULO DA SEÇÃO (EDITÁVEL) ========== -->
+            <div class="section-header">
+                <span class="section-label">Por Que Escolher a Animália?</span>
+                <h2 class="section-title">Nossos Diferenciais</h2>
+            </div>
+
+            <!-- ========== GRID DE DESTAQUES (EDITÁVEL) ========== -->
+            <div class="destaques-grid">
+
+                <div class="destaque-card">
+                    <div class="destaque-image">
+                        <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=400&q=80"
+                            alt="Pets felizes">
+                    </div>
+                    <div class="destaque-number">01</div>
+                    <h3 class="destaque-title">Especialistas no Cuidado</h3>
+                    <p class="destaque-description">
+                        Profissionais dedicados exclusivamente à estética, higiene e bem-estar do seu pet com técnicas
+                        refinadas.
+                    </p>
+                </div>
+
+                <div class="destaque-card">
+                    <div class="destaque-image">
+                        <img src="https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=400&q=80"
+                            alt="Atendimento">
+                    </div>
+                    <div class="destaque-number">02</div>
+                    <h3 class="destaque-title">Equipe Acolhedora</h3>
+                    <p class="destaque-description">
+                        O Felipe e suas especialistas tratam cada animalzinho com amor, paciência e atenção
+                        individualizada.
+                    </p>
+                </div>
+
+                <div class="destaque-card">
+                    <div class="destaque-image">
+                        <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=400&q=80"
+                            alt="Tecnologia">
+                    </div>
+                    <div class="destaque-number">03</div>
+                    <h3 class="destaque-title">Produtos Premium</h3>
+                    <p class="destaque-description">
+                        Linha selecionada de shampoos, condicionadores e cosméticos que protegem a pele e valorizam a
+                        pelagem.
+                    </p>
+                </div>
+
+                <div class="destaque-card">
+                    <div class="destaque-image">
+                        <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=400&q=80"
+                            alt="Ambiente">
+                    </div>
+                    <div class="destaque-number">04</div>
+                    <h3 class="destaque-title">Espaço Seguro e Limpo</h3>
+                    <p class="destaque-description">
+                        Um ambiente estruturado e transparente para que seu pet se sinta confortável durante todo o
+                        processo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- ========================================
+         SEÇÃO FAQ (PERGUNTAS FREQUENTES)
+         ======================================== -->
+    <section class="faq" id="faq">
+        <div class="container">
+
+            <!-- ========== TÍTULO DA SEÇÃO (EDITÁVEL) ========== -->
+            <div class="section-header">
+                <span class="section-label">Perguntas Frequentes</span>
+                <h2 class="section-title">Tire suas dúvidas</h2>
+            </div>
+
+            <!-- ========== LISTA FAQ ACORDEÃO (EDITÁVEL) ========== -->
+            <div class="faq-list">
+
+                <!-- FAQ Item 1 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Quais são os horários de atendimento?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Atendemos de segunda a sexta das 8h às 18h, sábados das 8h às 12h e domingos fechados.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>É necessário agendar horário para banho e tosa?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim, recomendamos agendar com antecedência para garantir o horário de sua preferência. Você
+                            pode agendar pelo WhatsApp, telefone ou pessoalmente.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Quais vacinas vocês oferecem para cães e gatos?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+        <p>Trabalhamos com a imunização essencial para cães e gatos, oferecendo: <strong>V8 importada</strong> (canina), <strong>Antirrábica</strong> (canina e felina), além de <strong>Gripe e V4</strong> (felina).</p>
+    </div>
+                </div>
+
+                <!-- FAQ Item 6 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Quais formas de pagamento são aceitas?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Aceitamos dinheiro, PIX, cartões de débito e crédito (parcelamento facilitado).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         SEÇÃO CONTATO
+         ======================================== -->
+    <section class="contato" id="contato">
+        <div class="container">
+
+            <!-- ========== TÍTULO DA SEÇÃO (EDITÁVEL) ========== -->
+            <div class="section-header">
+                <span class="section-label">Contato</span>
+                <h2 class="section-title">Entre em contato conosco</h2>
+                <p class="section-description">
+                    Estamos prontos para cuidar do seu pet. Agende uma visita ou tire suas dúvidas!
+                </p>
+            </div>
+
+            <div class="contato-content">
+
+                <!-- ========== INFORMAÇÕES DE CONTATO (EDITÁVEL) ========== -->
+                <div class="contato-info">
+
+    <!-- Endereço -->
+    <div class="info-item">
+        <div class="info-icon">📍</div>
+        <div class="info-text">
+            <h3>Endereço</h3>
+            <p>Rua Guaranis, 470<br>Centro - Tupã-SP<br>CEP: 17601-140</p>
+        </div>
+    </div>
+
+    <!-- Telefone -->
+    <div class="info-item">
+        <div class="info-icon">📞</div>
+        <div class="info-text">
+            <h3>Telefone</h3>
+            <p>(14) 3722-1617</p>
+            <p>(14) 99857-9097</p>
+        </div>
+    </div>
+
+    <!-- Horário (Centralizado na linha de baixo) -->
+    <div class="info-item horario-centralizado">
+        <div class="info-icon">🕒</div>
+        <div class="info-text">
+            <h3>Horário de Atendimento</h3>
+            <p>Segunda a Sexta: 8h às 18h | Sábado: 8h às 12h<br>Domingo: Fechado</p>
+        </div>
+    </div>
+
+    <!-- Redes Sociais -->
+     
+    <div class="social-links">
+   
+        <a href="https://wa.me/5514998579097?text=Olá!" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">📱</a>
+        <a href="https://instagram.com/felipeanimaliatupa" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">📷</a>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================
+         FOOTER / RODAPÉ
+         ======================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+
+                <!-- ========== COLUNA 1: SOBRE (EDITÁVEL) ========== -->
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="./imagens/logo-animalia.png" alt="logo-animalia" class="logo-img">
+                        <span class="logo-text">
+                            <span class="logo-name">Animália</span>
+                            <span class="logo-tagline">Clínica Veterinária</span>
+                        </span>
+                    </div>
+                    <p class="footer-description">
+                        Cuidando da saúde e do <br> bem-estar do seu melhor amigo.
+                    </p>
+                </div>
+
+                <!-- ========== COLUNA 2: LINKS RÁPIDOS (EDITÁVEL) ========== -->
+                <div class="footer-col">
+                    <h3 class="footer-title">Links Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <!-- ========== COLUNA 3: SERVIÇOS (EDITÁVEL) ========== -->
+                <div class="footer-col">
+                    <h3 class="footer-title">Serviços</h3>
+                    <ul class="footer-links">
+                        <li><a href="#servicos">Banho e Tosa</a></li>
+                        <li><a href="#servicos">Consultas Veterinárias</a></li>
+                        <li><a href="#servicos">Vacinação</a></li>
+                        <li><a href="#servicos">Pet Shop</a></li>
+                    </ul>
+                </div>
+
+                <!-- ========== COLUNA 4: CONTATO (EDITÁVEL) ========== -->
+                <div class="footer-col">
+                    <h3 class="footer-title">Contato</h3>
+                    <ul class="footer-contact">
+                        <li>📍 Rua Guaranis, 470<span class="centro"> Centro</span> - Tupã-SP</li>
+                        <li>📞 (14)3722-1617 </li>
+                        <li>📱 (14)99857-9097 </li>
+                       
+                        <li>🕐 Segunda à Sexta: 8h-18h<br>Aos Sábados: 8h ás 12h</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- ========== LINHA DE COPYRIGHT (EDITÁVEL) ========== -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 Clínica Veterinária Animália. Todos os direitos reservados.</p>
+                <p>Desenvolvido com 💙 para pets e tutores</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ========== ARQUIVO JAVASCRIPT ========== -->
+    <script src="script.js"></script>
+
+
+
+
+    <!-- ========== BOTÃO FLUTUANTE DO WHATSAPP ========== -->
+    <a href="https://wa.me/5514998579097?text=Olá!" class="btn-whatsapp-flutuante" target="_blank"
+        rel="noopener noreferrer" aria-label="Fale conosco pelo WhatsApp">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+    </a>
+
+</body>
+
+</html>
